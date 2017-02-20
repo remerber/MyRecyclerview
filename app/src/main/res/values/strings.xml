@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyRecyclerview</string>
+    <string name="list">刷新和加载</string>
 </resources>

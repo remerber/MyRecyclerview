@@ -1,13 +1,24 @@
 package com.example.administrator.myrecyclerview;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.administrator.myrecyclerview.core.BaseActivity;
+
+public class MainActivity extends BaseActivity {
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected void setUpContentView() {
+        setContentView(R.layout.activity_main,R.string.list);
+    }
+
+    @Override
+    protected void setUpView() {
+
+    }
+
+    @Override
+    protected void setUpData(Bundle savedInstanceState) {
+
     }
 }
